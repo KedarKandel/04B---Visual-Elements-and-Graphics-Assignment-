@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(
+                135deg,                 /* Gradient angle */
+                rgba(255, 0, 0, 0.7),   /* Start color: semi-transparent red */
+                rgba(0, 0, 255, 0.7)    /* End color: semi-transparent blue */
+            );
+}
+h1{
+    width: max-content;
+    padding: 3px;
+    border: 5px solid white;
+}
+
+p{ max-width: max-content;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+a{
+    color: blue;
+    font-size: 20px;
+    padding: 5px;
+}
+figcaption{
+  color: yellow;
+}
+.image_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
